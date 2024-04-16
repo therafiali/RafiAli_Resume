@@ -155,12 +155,13 @@ export default function Home() {
                   </div>
                   {/* cv button */}
                   <div className="bostami-parsonal-info-btn">
-                    <a className="btn-1" target="_blank" href="/rafi.pdf">
-                      <span className="icon">
+                    
+                      <a href="/rafi.pdf" className="btn-1" target="_blank" rel="noopener noreferrer" download>
+    <span className="icon">
                         <i className="fa-regular fa-download" />
                       </span>
                       download cv
-                    </a>
+    </a>
                   </div>
                 </div>
               </div>
